@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s ease;
+  font-family: "Montserrat";
+  user-select: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.links a {
+  text-decoration: none;
+  color: #17183b;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav span {
+  position: absolute;
+  right: 50px;
+  height: 70px;
+  margin-left: 30px;
+  width: 1px;
+  background-color: #d1d1d8;
+}
+.search {
+  padding-right: 40px;
+}
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: #d1d1d8;
+}
+section .container {
+  display: flex;
+  justify-content: space-between;
+}
+/* Styling main section */
+
+section .container {
+  padding-top: 30px;
+}
+.back {
+  padding: 30px 0;
+}
+.left-side {
+  width: 550px;
+}
+.right-side {
+  width: 650px;
+}
+.type h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 50px;
+}
+.chair {
+  color: #a2a3b1;
+}
+.product-name {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56px;
+  padding-bottom: 30px;
+}
+.price h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+}
+.stars h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.stars h2 span {
+  color: #a2a3b1;
+}
+.characters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #17183b;
+  padding-bottom: 30px;
+}
+.colors {
+  padding-bottom: 30px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.counter-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid #a2a3b1;
+  border-radius: 8px;
+  padding: 14px;
+}
+.counter-card button {
+  font-size: 24px;
+}
+.add {
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3aa29f;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Styling right side */
+
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.days {
+  padding-bottom: 60px;
+}
+.socials {
+  display: flex;
+  gap: 150px;
+}
+.social {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+.heart {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #3aa29f;
+  gap: 20px;
+}
+.heart h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 60px;
+}
+.main-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item{
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #a2a3b1;
+    border-radius: 8px;
+}
+.item img{
+    width: 100%;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.main-img img {
+  width: 100%;
+}
+.minus,
+.plus {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 10px;
+}
+.minus p {
+  font-size: 48px;
+}
+.plus:hover{
+    background-color: #cfcfcf;
+}
+.minus:hover{
+    background-color: #cfcfcf;
+}
