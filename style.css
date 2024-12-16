@@ -209,6 +209,9 @@ section .container {
   display: flex;
   justify-content: space-between;
 }
+#item1{
+    border: 2px solid green;
+}
 .main-img{
     display: flex;
     align-items: center;
