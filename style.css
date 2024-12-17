@@ -131,13 +131,20 @@ section .container {
 .counter-card {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   border: 1px solid #a2a3b1;
   border-radius: 8px;
   padding: 14px;
+  position: relative;
 }
 .counter-card button {
   font-size: 24px;
+}
+.num{
+  position: absolute;
+  left: 60px;
+  font-size: 15px !important;
+  z-index: 99;
 }
 .add {
   padding: 20px 40px;
@@ -150,7 +157,32 @@ section .container {
 }
 
 /* Styling right side */
-
+.left{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.left:hover{
+  background-color: #cfcfcf;
+}
+.item.active{
+  border: 2px solid green !important;
+  box-shadow : 0px 0px 10px 2px green !important;  
+}
+.right{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.right:hover{
+  background-color: #cfcfcf;
+}
 .order {
   display: flex;
   align-items: center;
